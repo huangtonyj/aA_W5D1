@@ -1,14 +1,18 @@
 .main-nav {
-
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
 }
 
 .left-nav > ul,
 .right-nav > ul {
-  
+  display: flex;
+  align-items: flex-start;
 }
 
 .left-nav > ul > li {
-
+  font-family: $serif;
+  font-size: 12px;
 }
 
 .right-nav > ul > li {
@@ -16,19 +20,20 @@
 }
 
 .right-nav > ul > li:last-of-type {
-
+  font-size: 150%;
 }
 
 .left-nav > ul > li:hover,
 .right-nav > ul > li:last-of-type:hover {
-
+  background-color: $lightest-gray;
 }
 
 .left-nav span {
-
+  text-transform: uppercase;
+  margin: 15px;
 }
 
-
-.right-nav i {
-
+.right-nav i, {
+  font-size: 16px;
+  margin: 5px;
 }

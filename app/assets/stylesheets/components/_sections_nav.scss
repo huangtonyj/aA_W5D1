@@ -1,0 +1,20 @@
+.sections-nav {
+
+}
+
+.sections-nav ul{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+// .sections-nav ul li: {
+//   // display: inline-block;
+// }
+
+.sections-nav li:hover{
+  background-color: $light-gray;
+  text-decoration: underline;
+  margin: 5px;
+  padding: 5px;
+}
